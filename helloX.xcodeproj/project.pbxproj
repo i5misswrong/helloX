@@ -36,6 +36,7 @@
 		58054EB61B1F4B9E00080553 /* helloXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58054EBB1B1F4B9E00080553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58054EBC1B1F4B9E00080553 /* helloXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloXTests.swift; sourceTree = "<group>"; };
+		58F58A9D1B200715000C3868 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				58054EAD1B1F4B9E00080553 /* Images.xcassets */,
 				58054EAF1B1F4B9E00080553 /* LaunchScreen.xib */,
 				58054EA41B1F4B9E00080553 /* Supporting Files */,
+				58F58A9D1B200715000C3868 /* MyPlayground.playground */,
 			);
 			path = helloX;
 			sourceTree = "<group>";
@@ -409,6 +411,7 @@
 				58054EC21B1F4B9E00080553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58054EC31B1F4B9E00080553 /* Build configuration list for PBXNativeTarget "helloXTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				58054EC51B1F4B9E00080553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

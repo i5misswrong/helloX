@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var yearM: UITextField!
+    
+    
+    @IBOutlet weak var img: UIImageView!
+    
+    let offSet=4;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +29,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func okButton(sender: AnyObject) {
+        //yearM.resignFirstResponder()
+        if let  year = yearM.text.toInt(){
+            //year
+            var imgNum = (year-offSet)%12
+            img.image=UIImage(named: String(imgNum))
+        }
+        else{
+            //nil year
+        }
+    }
 }
 
